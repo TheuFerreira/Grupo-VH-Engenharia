@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: openSansCondensedBold;
+    src: url("../fonts/OpenSans-CondBold.ttf");
+}
+
+@font-face {
+    font-family: openSansCondensed;
+    src: url("../fonts/OpenSans-CondLight.ttf");
+}
+
+/*---------------------------MENU---------------------------*/
+#menu {
+    background-color: #000050;
+}
+
+#menu_logo {
+    margin-left: 25px;
+    position: absolute;
+    width: 150px;
+    height: auto;
+    display: inline-flex;
+}
+
+#menu_borderlogo {
+    background-color: #000050;
+    height: auto;
+    border-radius: 90px;
+}
+
+#menu_logo img {
+    width: 120px;
+}
+
+#menu_logo a {
+    margin-left: 5px;
+    font-size: 25px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+    color: #f8f8f8f8;
+}
+
+ul {
+    text-align: right;
+    margin-right: 50px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+ul li a {
+    color: #f8f8f8f8;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: yellow;
+}

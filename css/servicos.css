@@ -1,0 +1,98 @@
+#servicos {
+    background-image: url("../imgs/telafotovoltaica.gif");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#servicos .container {
+    padding-left: 200px;
+    padding-right: 600px;
+}
+
+#servicos .container {
+    display: inline-block;
+
+    padding-right: 150px;
+}
+
+#servicos .container h1 {
+    border-left: 9px solid #f8f8f8f8;
+    
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+
+    margin-left: -19px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+
+    color: #f8f8f8f8;
+}
+
+#servicos .container .field {
+    position: relative;
+
+    background-color: #f8f8f8f8;
+
+    display: inline-block;
+
+    margin-right: 25px;
+    margin-bottom: 50px;
+
+    width: 470px;
+    height: 250px;
+}
+
+#servicos .container .field img {
+    width: 250px;
+    height: 200px;
+
+    display: inline-block;
+
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#servicos .container .field .info {
+    position: absolute;
+    
+    width: 200px;
+    height: 235px;
+
+    margin-top: 10px;
+
+    display: inline-block;
+}
+
+#servicos .container .field .info h2 {
+    text-align: center;
+
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #000050;
+
+    padding-bottom: 10px;
+}
+
+#servicos .container .field .info p {
+    text-align: justify;
+
+    font-family: openSansCondensed, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+}
+
+#servicos .container .field .info a {
+    text-decoration: none;
+
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000050;
+
+    display: flex;
+    justify-content: center;
+}
