@@ -1,0 +1,28 @@
+#monitoramento {
+    background-color: #f8f8f8f8;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#monitoramento .container {
+    padding-left: 200px;
+    padding-right: 600px;
+
+    display: inline-block;
+
+    padding-right: 150px;
+}
+
+#monitoramento .container h1 {
+    border-left: 9px solid #000050;
+    
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+
+    margin-left: -19px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+
+    color: #000050;
+}

@@ -13,6 +13,11 @@
     src: url("../fonts/OpenSans-CondLight.ttf");
 }
 
+@font-face {
+    font-family: openSans;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
 /*---------------------------MENU---------------------------*/
 #menu {
     background-color: #000050;
@@ -37,7 +42,7 @@
 }
 
 #menu_logo a {
-    margin-left: 5px;
+    padding-left: 15px;
     font-size: 25px;
     margin-top: 5px;
     text-decoration: none;
@@ -58,8 +63,11 @@ ul li {
 ul li a {
     color: #f8f8f8f8;
     text-decoration: none;
+
+    font-size: 14px;
+    font-family: openSans, Arial, Helvetica, sans-serif;
 }
 
 ul li a:hover {
-    color: yellow;
+    color: #cccccc;
 }
