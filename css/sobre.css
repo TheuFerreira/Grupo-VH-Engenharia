@@ -2,26 +2,26 @@
     display: flex;
     align-content: center;
     justify-content: center;
-
+  
     padding-top: 100px;
     padding-bottom: 100px;
 
     background-color: #f8f8f8f8;
 }
 
-#sobre .container {
-    padding-left: 200px;
+#sobre .container-fluid {
+    padding-left: 20%;
     padding-right: 600px;
     padding-bottom: 150px;
 }
 
-#sobre .container .info {
+#sobre .container-fluid .info {
     display: inline-block;
 
     padding-right: 150px;
 }
 
-#sobre .container .info h1 {
+#sobre .container-fluid .info h1 {
     border-left: 9px solid #1E324A;
     
     font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
@@ -34,7 +34,7 @@
     color: #1E324A;
 }
 
-#sobre .container .info h2 {
+#sobre .container-fluid .info h2 {
     padding-right: 100px;
     padding-bottom: 50px;
 
@@ -44,7 +44,7 @@
     color: #7D7D7D;
 }
 
-#sobre .container .info p {
+#sobre .container-fluid .info p {
     font-family: openSansCondensed, Arial, Helvetica, sans-serif;
     font-size: 20px;
 
@@ -53,7 +53,7 @@
     color: #7D7D7D;
 }
 
-#sobre .container .image {
+#sobre .container-fluid .image {
     position: absolute;
 
     background-image: url("../imgs/sobre_logo.png");

@@ -1,40 +1,51 @@
 .lateral{
   
-		margin: 0; padding: 0;
-      
-      
-       margin-top: 15%;
+    margin: 0; padding: 0;
+    float: right;
+  
+   margin-top: 15%;
+margin-left: 88%;
+   z-index: 50;
 
-       z-index: 50;
-    width: 100%;
-    height: 230px;
-    min-width: 114px;
-    min-height: 95px;
+position: fixed;
+}
+.lateral ul{
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+flex-direction: column;
+-webkit-box-pack: justify;
+-webkit-justify-content: space-between;
+justify-content: space-between;
+width: 100%;
+height: 100%;
 
-    justify-self: end;
-    margin-right: 50px;
-    align-self: center;
-    position: fixed;
-    grid-area: 1 / 1 / 2 / 2;
-    pointer-events: auto;
+display: block;
+list-style-type: disc;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
 }
 .lateral a{
-    text-decoration: none;
-    color: black;
-    display: block;
-    text-align: left;
-    font: normal normal 700 14px/1.4em 'open sans condensed',sans-serif;
-    
-   
+text-decoration: none;
+color: black;
+display: block;
+text-align: left;
+
+font: normal normal 700 11px/1.4em 'open sans condensed',sans-serif;
+
+
 }
 .lateral a img:hover{
-    background-color: gray;
+background-color: gray;
 }
 .bola{
-    background:transparent;
+background:transparent;
 color:black;
-width:8px;
-height:8px;
+width:5px;
+height:5px;
 
 vertical-align:middle;
 text-align:center;
@@ -50,6 +61,6 @@ margin-left: 3px;
 }
 
 .bola:hover{
-    background-color: gray;
-    border-color: gray;
+background-color: gray;
+border-color: gray;
 }

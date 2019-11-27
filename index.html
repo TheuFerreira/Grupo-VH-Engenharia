@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="css/menu.css">
+</head>
+    
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/inicio.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/servicos.css">
@@ -13,42 +11,43 @@
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/menu_lateral.css">
 
-    
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <title>Grupo VH Engenharia</title>
+
 <body>
-    
     <section id="menu">
         <div id="menu_logo">
             <div id="menu_borderlogo">
                 <img src="imgs/menu_logo.png" alt="">
             </div>
             
-            <a href="#">ENGENHARIA ELÉTRICA</a>
+            <a href="index.html#menu">ENGENHARIA ELÉTRICA</a>
         </div>
         <ul>
-            <li><a href="#sobre">EMPRESA</a></li>
+            <li><a href="#sobre">SOBRE NÓS</a></li>
             <li><a href="#servicos">SERVIÇOS</a></li>
             <li><a href="#monitoramento">MONITORAMENTO</a></li>
             <li><a href="#contato">CONTATO</a></li>
         </ul>
     </section>
-    <div class="lateral">
-                
-                    
-            <ul>
 
-                <li><a href="#inicio">TOPO DA PÁGINA <div class="bola"></div></a></li><Br>
-                <li><a href="#servicos">SERVIÇOS <div class="bola"></div></a></li><Br>
-                <li><a href="#monitoramento">DEPOIMENTOS <div class="bola"></div></a></li><Br>
-                <li><a href="#contato">CONTATO <div class="bola"></div></a></li><Br>
-            </ul>
-            
+    <div class="lateral">
+                            
+        <ul>
+            <li><a href="#menu">TOPO DA PÁGINA <div class="bola"></div></a></li><Br>
+            <li><a href="#sobre">SOBRE NÓS <div class="bola"></div></a></li><Br>
+            <li><a href="#servicos">SERVIÇOS <div class="bola"></div></a></li><Br>
+            <li><a href="#monitoramento">MONITORAMENTO <div class="bola"></div></a></li><Br>
+            <li><a href="#contato">CONTATO <div class="bola"></div></a></li><Br>
+        </ul>
         
-            </div>
+    </div>
+    
         
-            
-       
-  
     <section id="inicio">
         <div class="inicio_container">
             <h3>SEJA VOCÊ SUA PRÓPRIA ENERGIA</h3>
@@ -60,108 +59,130 @@
             <a href="#">ORÇAMENTO</a>
         </div>
     </section>
-    
 
     <section id="sobre">
-        <div class="container">
-            <div class="info">
-                <h1>Sobre nós</h1>
-                <h2>Com mais de 20 anos de experiência em toda a região.</h2>
-                <p>O grupo VH Engenharia Elétrica, surgiu com o intuito de praticar 
-                    a sustentabilidade, e além de ajudar o meio ambiente traz uma maior
-                    economia para nossos clientes, nossa empresa está localizada na 
-                    cidade de Guanhães, fazemos o atendimento em toda a região.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info">
+                        <h1>Sobre nós</h1>
+                        <h2>Com mais de 20 anos de experiência em toda a região.</h2>
+                        <p>O grupo VH Engenharia Elétrica, surgiu com o intuito de praticar 
+                            a sustentabilidade, e além de ajudar o meio ambiente traz uma maior
+                            economia para nossos clientes, nossa empresa está localizada na 
+                            cidade de Guanhães, fazemos o atendimento em toda a região.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image"></div>
+                </div>
             </div>
-            <div class="image"></div>
         </div>
     </section>
 
     <section id="servicos">
-        <div class="container">
+        <div class="container-fluid">
             <h1>Serviços</h1>
-            <div class="field">
-                <img src="imgs/servico01.png" alt="">
-                <div class="info">
-                    <h2>Fotovaltaico</h2>
-                    <p>Quando a unidade consumidora não utiliza toda a energia 
-                        gerada pela central, ela é injetada na rede da 
-                        distribuidora local, gerando crédito de energia.</p>
-                    <a href="">SAIBA MAIS</a>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="field">
+                        <img src="imgs/servico01.png" alt="">
+                        <div class="info">
+                            <h2>Fotovoltaico</h2>
+                            <p>Quando a unidade consumidora não utiliza toda a energia 
+                                gerada pela central, ela é injetada na rede da 
+                                distribuidora local, gerando crédito de energia.</p>
+                            <a href="fotovoltaico.html">SAIBA MAIS</a>
+                        </div>
+                    </div><br>
+
+                    <div class="field">
+                        <img src="imgs/servico02.png" alt="">
+                        <div class="info">
+                            <h2>Projetos Elétricos</h2>
+                            <p>Para o projeto ser eficiente, é fundamental a realização 
+                                de um estudo devidamente elaborado por profissionais 
+                                capacitados.</p>
+                            <a href="projetosEletricos.html">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="field">
+                        <img src="imgs/servico03.png" alt="">
+                        <div class="info">
+                            <h2>GRUPO MOTO GERADOR</h2>
+                            <p>O grupo VH engenharia oferece os melhores preços e soluções 
+                                em aluguel de geradores, ligue faça um orçamento e veja todos 
+                                os benefícios.</p>
+                            <a href="motoGerador.html">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                <br>
+
+                <div class="field">
+                    <img src="imgs/servico04.png" alt="">
+                    <div class="info">
+                        <h2>SUB-ESTAÇÃO</h2>
+                        <p>A cabine primária é o conjunto de equipamentos destinados 
+                            a entrada de energia, medição de faturamento e proteção.</p>
+                        <a href="subestacao.html">SAIBA MAIS</a>
+                    </div>
+                </div>
                 </div>
             </div>
 
-            <div class="field">
-                <img src="imgs/servico02.png" alt="">
-                <div class="info">
-                    <h2>Projetos Elétricos</h2>
-                    <p>Para o projeto ser eficiente, é fundamental a realização 
-                        de um estudo devidamente elaborado por profissionais 
-                        capacitados.</p>
-                    <a href="">SAIBA MAIS</a>
-                </div>
-            </div><br>
-
-            <div class="field">
-                <img src="imgs/servico03.png" alt="">
-                <div class="info">
-                    <h2>GRUPO MOTO GERADOR</h2>
-                    <p>O grupo VH engenharia oferece os melhores preços e soluções 
-                        em aluguel de geradores, ligue faça um orçamento e veja todos 
-                        os benefícios.</p>
-                    <a href="">SAIBA MAIS</a>
-                </div>
-            </div>
-
-            <div class="field">
-                <img src="imgs/servico04.png" alt="">
-                <div class="info">
-                    <h2>SUB-ESTAÇÃO</h2>
-                    <p>A cabine primária é o conjunto de equipamentos destinados 
-                        a entrada de energia, medição de faturamento e proteção.</p>
-                    <a href="">SAIBA MAIS</a>
-                </div>
-            </div>
         </div>
+
     </section>
 
     <section id="monitoramento">
-        <div class="container">
+        <div class="container-fluid">
             <h1>Monitoramento</h1>
-            <div class="info2">
-                <div class="field2">
-                        <img src="imgs/img/BUCETA 4.png" alt="">
-                        <center><a href="http://webmonitoring.csisolar.com/platformSelect" target="black"><button class="btn_visitar" >Visitar</button></a></center>
-                </div> 
-                <div class="field2">
-                        <img src="imgs/img/BUCETA 5.png" alt="">
-                        <center><a href="http://server.smten.com/" target="black"><button class="btn_visitar">Visitar</button></a></center>
-                </div> 
-            </div>
-            <div class="info2">
+            <div class="row">
+                <div class="col-md">
+                    <div class="info2">
+                        <div class="field2">
+                                <img src="imgs/img/BUCETA 4.png" alt="">
+                                <center><a href="http://webmonitoring.csisolar.com/platformSelect" target="black"><button class="btn_visitar" >Visitar</button></a></center>
+                        </div> 
+                        <div class="field2">
+                                <img src="imgs/img/BUCETA 5.png" alt="">
+                                <center><a href="http://server.smten.com/" target="black"><button class="btn_visitar">Visitar</button></a></center>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="info2">
                         <div class="field2_diferente">
                                 <img src="imgs/img/BUCETA 3.png" alt="">
                                 <center><a href="http://webmonitoring.csisolar.com/platformSelect" target="black" ><button class="btn_visitar" >Visitar</button></a></center>
-        
                         </div> 
-            </div>
-            <div class="info2">
-                    <div class="field2">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="info2">
+                        <div class="field2">
                             <img src="imgs/img/BUCETA 1.png" alt="">
                             <center><a href="https://www.solarweb.com/" target="black"><button class="btn_visitar" >Visitar</button></a></center>    
-                    </div> 
-                    <div class="field2">
+                        </div> 
+                        <div class="field2">
                             <img src="imgs/img/BUCETA 2.png" alt="">
                             <center><a href="https://www.sunnyportal.com/Templates/Start.aspx?ReturnUrl=%2f" target="black"><button class="btn_visitar" >Visitar</button></a></center>    
-                    </div> 
-        </div>
-        
+                        </div> 
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contato">
-        <div class="container">
+        <div class="container-fluid">
             <h1>Contato</h1>
+            <div class="row">
+              <div class="col-md-6">
+            
             <div class="info">
                 <p>Entre em contato conosco ou envie um email para info@meusite.com.</p>
                 <p>Se preferir, preencha o formulário ao lado.</p>
@@ -171,23 +192,36 @@
                     <img src="imgs/icon_whatsapp.png" alt="">
                     <p>(33) 3421-3612</p>
                 </div>
-    
-                <div class="icon_contato">
-                    <img src="imgs/icon_whatsapp.png" alt="">
-                    <p>(33) 3421-3612</p>
+            </div>
+            </div>
+            <div class="col-md-6">
+            
+                <form>
+                    
+                    <div class="form-row">
+                        <div class="col">
+                            
+                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nome">                        </div>
+                        <div class="col">
+                    
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">                        </div>
+                      </div>
+                    
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Mensagem</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="form-control" rows="3" >ENVIAR</textarea>
+                    </div>
+
+                  </form>
                 </div>
             </div>
-
-            <div class="buttons">
-                <div class="contato_linha1">
-                    <input type="text" name="" id="contato_nome" placeholder="Nome *">
-                    <input type="email" name="" id="contato_email" placeholder="Email *">
-                </div>
-                <textarea name="" id="contato_menssagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
-                <input type="button" value="ENVIAR" id="contato_enviar">
             </div>
         </div>
     </section>
-
+          
 </body>
 </html>

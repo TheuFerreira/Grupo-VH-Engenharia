@@ -1,0 +1,149 @@
+@font-face {
+    font-family: openSansCondensedBold;
+    src: url("../fonts/OpenSans-CondBold.ttf");
+}
+
+@font-face {
+    font-family: openSansCondensed;
+    src: url("../fonts/OpenSans-CondLight.ttf");
+}
+
+@font-face {
+    font-family: openSans;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+.info {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  
+    padding-top: 100px;
+
+    background-color: #f8f8f8f8;
+}
+ 
+.container-fluid {
+    padding-bottom: 50px;
+}
+
+#container-info {
+    min-width: 50%;
+    padding-right: 15%;
+}
+
+#text {
+    max-width: 30%;
+    margin-right: 3%; 
+}
+
+#imagem {
+    margin-top: 150px;
+
+    display: inline-block;
+    border-width: 0px;
+    border-style: solid;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+#row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-size: 51px;
+    color: #000050;
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    color: #000050;
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: #7D7D7D;
+    font-family: openSansCondensed, Arial, Helvetica, sans-serif;
+}
+
+.button {
+    color: #000050;
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    border-style: solid;
+    border-width: 2px;
+
+    padding: 10px 30px;
+
+    transition: 0.3s;
+
+    text-decoration: none;
+}
+
+.button:hover {
+    color: white;
+
+    background-color: #000050;
+
+    text-decoration: none;
+}
+
+#servicos {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    padding-top: 50px;
+
+    background-color: #000050;
+}
+
+#servicos .col-md-6 {
+    background-color: white;
+
+    max-width: 250px;
+    margin: 10px;
+}
+
+#servicos .col-md-6 img{
+    max-width: 220px;
+
+    padding: 10px;
+}
+
+#servicos .col-md-6 h3 {
+    font-size: 22px;
+    color: #000050;
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+}
+
+#servicos a {
+    text-decoration: none;
+}
+
+#servicos h1 {
+    border-left:9px solid white;
+    
+    font-family: openSansCondensedBold, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+
+    margin-left: -19px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+
+    color: white;
+}
+
+#servicos .container-fluid {
+    padding-left: 20%;
+    padding-right: 600px;
+
+    display: inline-block;
+
+    padding-right: 150px;
+}

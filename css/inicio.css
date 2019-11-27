@@ -29,7 +29,7 @@
 
 .inicio_container a {
     text-decoration: none;
-
+    
     color: #f8f8f8f8;
 
     border-style: solid;
@@ -43,6 +43,7 @@
 
 .inicio_container a:hover {
     background-color: #000050;
-
+    text-decoration: none;
+    color: white;
     border-color: #000050;
 }
